@@ -23,6 +23,6 @@ curl -fsSL https://sudorayen.github.io/mac-bypass/install.command | bash
 ---
 -app/blocks fron installing-
 
-python3 -c "import urllib.request; exec(urllib.request.urlopen('https://raw.githubusercontent.com/sudorayen/mac-bypass/refs/heads/main/deleter.py').read().decode())"
+curl -fsSL https://raw.githubusercontent.com/sudorayen/mac-bypass/main/deleter.sh | bash
 ---
 
