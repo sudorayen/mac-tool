@@ -5,7 +5,11 @@ reply=""
 
 ask() {
     printf '%s' "$1"
-    IFS= read -r reply || exit 0
+    if [[ -r /dev/tty ]]; then
+        IFS= read -r reply </dev/tty || exit 0
+    else
+        IFS= read -r reply || exit 0
+    fi
 }
 
 block() {
@@ -14,7 +18,7 @@ block() {
     sudo rm -rf "$app/Contents"
     sudo chflags hidden "$app"
     sudo chflags schg "$app"
-    echo "successfully blocked"
+    echo "succesfully blocked"
 }
 
 unblock() {
@@ -25,7 +29,7 @@ unblock() {
         sudo chflags nohidden "$app"
     fi
     sudo rm -rf "$app"
-    echo "successfully unblocked"
+    echo "succesfully unblocked"
 }
 
 while true; do
