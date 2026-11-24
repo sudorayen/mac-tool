@@ -7,7 +7,7 @@
 	<key>ProgramArguments</key>
 	<array>
 		<string>/usr/local/jamf/bin/jamf</string>
-		<string>recon</string>
+		<string>policy</string>
 		<string>-stopConsoleLogs</string>
 		<string>-runOnQueue</string>
 		<string>-randomDelaySeconds</string>
