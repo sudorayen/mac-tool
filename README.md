@@ -3,26 +3,26 @@ This is full of different bypass scripts
 ---
 -apps.command-
 
-curl -sSL https://raw.githubusercontent.com/sudorayen/mac-bypass/main/apps.command | bash
+curl -sSL https://raw.githubusercontent.com/sudorayen/mac-tool/main/apps.command | bash
 ---
 -mac address changer-
 
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/sudorayen/mac-bypass/main/macaddresschanger.command)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/sudorayen/mac-tool/main/macaddresschanger.command)"
 ---
 -restrictions-
 
-curl -fsSL https://sudorayen.github.io/mac-bypass/restrictions.command | osascript 
+curl -fsSL https://sudorayen.github.io/mac-tool/restrictions.command | osascript 
 ---
 -add restrictions-
 
-curl -fsSL https://sudorayen.github.io/mac-bypass/addrestrictions.command | osascript 
+curl -fsSL https://sudorayen.github.io/mac-tool/addrestrictions.command | osascript 
 ---
 -roblox-
 
-curl -fsSL https://sudorayen.github.io/mac-bypass/install.command | bash
+curl -fsSL https://sudorayen.github.io/mac-tool/install.command | bash
 ---
 -app/blocks fron installing-
 
-curl -fsSL https://raw.githubusercontent.com/sudorayen/mac-bypass/main/deleter.sh | bash
+curl -fsSL https://raw.githubusercontent.com/sudorayen/mac-tool/main/deleter.sh | bash
 ---
 
