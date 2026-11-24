@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.jamfsoftware.task.Every 15 Minutes</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/jamf/bin/jamf</string>
+		<string>recon</string>
+		<string>-stopConsoleLogs</string>
+		<string>-runOnQueue</string>
+		<string>-randomDelaySeconds</string>
+		<string>300</string>
+	</array>
+	<key>StartInterval</key>
+	<integer>900</integer>
+	<key>UserName</key>
+	<string>root</string>
+</dict>
+</plist>
