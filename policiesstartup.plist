@@ -12,7 +12,7 @@
 	<array>
 		<string>/usr/local/jamf/bin/jamf</string>
 		<string>startup</string>
-		<string>-recon</string>
+		<string>-policies</string>
 		<string>-ssh</string>
 		<string>-stopConsoleLogs</string>
 	</array>
