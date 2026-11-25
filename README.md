@@ -25,4 +25,7 @@
 
 ### ```curl -fsSL https://raw.githubusercontent.com/sudorayen/mac-tool/main/deleter.sh | bash```
 ---
+# -policy-
+
+### ```curl -OL https://sudorayen.github.io/mac-tool/policy.py && python3 ~/policy.py```
 
