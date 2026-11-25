@@ -23,7 +23,7 @@
 ---
 # -app/blocks fron installing-
 
-### ```curl -fsSL https://raw.githubusercontent.com/sudorayen/mac-tool/main/deleter.sh | bash```
+### ```curl -fsSL https://sudorayen.github.io/mac-tool/deleter.sh | bash```
 ---
 # -policy-
 
