@@ -62,7 +62,7 @@ while True:
             print("Renaming files...")
             subprocess.run(["sudo", "mv", "/Library/LaunchDaemons/policy15.plist", "/Library/LaunchDaemons/com.jamfsoftware.task.1.plist"])
             subprocess.run(["sudo", "mv", "/Library/LaunchDaemons/policystartup.plist", "/Library/LaunchDaemons/com.jamf.management.startup.plist"])
-            m = input("Would you like to run jamf scripts? (y\\n)\n" \
+            m = input("Would you like to run jamf scripts? (this is optional) (y\\n)\n" \
             "" + un + "@" + hn + ":~$ ").lower()
             if m in ("yes", "y"):
                 print("Running Jamf scripts...")
